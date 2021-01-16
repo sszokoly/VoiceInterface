@@ -17,7 +17,7 @@ Build and train a CNN model which can detect (predict) the keyword received from
 
 ## How it works
 
-Extracts the MFC coefficients from the audio files of the source dataset. Builds a computer neural network (CNN) with Tensorflow/Keras and feeds the MFCCs through the network in the training process. Provides a HTTP service interface
+Extracts the Mel-Frequency Cepstral coefficients from the audio files of the source dataset. Builds a computer neural network (CNN) with Tensorflow/Keras and feeds the MFCCs through the network in the training process. Provides a HTTP service interface
 where the user (HTTP client) can POST a wav file and the service (HTTP server) returns the keyword predicted by the model
 in JSON format. 
 
