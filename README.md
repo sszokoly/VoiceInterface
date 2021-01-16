@@ -1,5 +1,5 @@
 
-# Voice Interface Demo
+# Voice Interface
 
 ## Intro
 
